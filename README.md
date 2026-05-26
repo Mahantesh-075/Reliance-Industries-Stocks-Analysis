@@ -41,7 +41,7 @@ Most retail investors and finance students who want to analyze Reliance Industri
 
 ---
 
-## 📊 Key Results At a Glance
+## 📊 Key Results and Insights
 
 | Metric | Value | Insight |
 |--------|-------|---------|
@@ -87,18 +87,18 @@ reliance-stock-analysis/
 
 | Chart | Preview | Type | What It Shows |
 |-------|---------|------|---------------|
-| **30-Year Price Trend** | [▶ Open Interactive](outputs/plots/ril_30yr_price.html) | Plotly HTML | Full price history with Dot-com, GFC, COVID, Jio annotations |
-| **Annual Returns** | [▶ Open Interactive](outputs/plots/ril_annual_returns.html) | Plotly HTML | Year-by-year green/red bar chart |
-| **Price & Volume** | [▶ Open Interactive](outputs/plots/ril_price_volume.html) | Plotly HTML | Dual-axis price + color-coded volume |
-| **Rolling Volatility** | [▶ Open Interactive](outputs/plots/rolling_volatility.html) | Plotly HTML | 30-day & 90-day annualized volatility bands |
+| **30-Year Price Trend** | [▶ Open Interactive](ril_30yr_price.html) | Plotly HTML | Full price history with Dot-com, GFC, COVID, Jio annotations |
+| **Annual Returns** | [▶ Open Interactive](ril_annual_returns.html) | Plotly HTML | Year-by-year green/red bar chart |
+| **Price & Volume** | [▶ Open Interactive](ril_price_volume.html) | Plotly HTML | Dual-axis price + color-coded volume |
+| **Rolling Volatility** | [▶ Open Interactive](rolling_volatility.html) | Plotly HTML | 30-day & 90-day annualized volatility bands |
 | **Returns Distribution** | 👇 Static PNG below | Matplotlib PNG | Histogram + Q-Q plot |
 | **Monthly Return Heatmap** | 👇 Static PNG below | Seaborn PNG | Year × Month return heatmap (30 years) |
 
 #### Returns Distribution (Histogram + Q-Q Plot)
-![Returns Distribution](outputs/plots/returns_distribution.png)
+![Returns Distribution](returns_distribution.png)
 
 #### Monthly Return Heatmap (1994–2025)
-![Monthly Heatmap](outputs/plots/monthly_return_heatmap.png)
+![Monthly Heatmap](monthly_return_heatmap.png)
 
 ---
 
@@ -106,10 +106,10 @@ reliance-stock-analysis/
 
 | Chart | Link | Covers |
 |-------|------|--------|
-| **Candlestick + Moving Averages** | [▶ Open Interactive](outputs/plots/candlestick_ma.html) | SMA-50, SMA-200, EMA-20 overlaid on 2023–2025 OHLC |
-| **Bollinger Bands** | [▶ Open Interactive](outputs/plots/bollinger_bands.html) | Upper/Lower bands, squeeze zones (2022–2025) |
-| **RSI-14** | [▶ Open Interactive](outputs/plots/rsi_chart.html) | RSI with overbought (70) / oversold (30) shaded zones |
-| **MACD (12,26,9)** | [▶ Open Interactive](outputs/plots/macd_chart.html) | MACD line, signal line, histogram with buy/sell signals |
+| **Candlestick + Moving Averages** | [▶ Open Interactive](candlestick_ma.html) | SMA-50, SMA-200, EMA-20 overlaid on 2023–2025 OHLC |
+| **Bollinger Bands** | [▶ Open Interactive](bollinger_bands.html) | Upper/Lower bands, squeeze zones (2022–2025) |
+| **RSI-14** | [▶ Open Interactive](rsi_chart.html) | RSI with overbought (70) / oversold (30) shaded zones |
+| **MACD (12,26,9)** | [▶ Open Interactive](macd_chart.html) | MACD line, signal line, histogram with buy/sell signals |
 
 ---
 
@@ -122,13 +122,13 @@ reliance-stock-analysis/
 | **Stationarity Comparison** | 👇 Static PNG below | Raw close vs first-differenced side-by-side |
 
 #### ACF & PACF Plots (Raw vs Differenced)
-![ACF PACF](outputs/plots/acf_pacf.png)
+![ACF PACF](acf_pacf.png)
 
 #### Seasonal Decomposition
-![Seasonal Decomposition](outputs/plots/seasonal_decomposition.png)
+![Seasonal Decomposition](seasonal_decomposition.png)
 
 #### Stationarity Transformation (Raw → Differenced)
-![Stationarity Comparison](outputs/plots/stationarity_comparison.png)
+![Stationarity Comparison](stationarity_comparison.png)
 
 ---
 
@@ -136,9 +136,9 @@ reliance-stock-analysis/
 
 | Chart | Link | What It Shows |
 |-------|------|--------------|
-| **ARIMA Forecast vs Actual** | [▶ Open Interactive](outputs/plots/arima_forecast_vs_actual.html) | Train/test split with prediction confidence bands |
-| **30-Day Future Forecast** | [▶ Open Interactive](outputs/plots/arima_30day_forecast.html) | Next 30 trading days with 95% CI |
-| **60-Day Future Forecast** | [▶ Open Interactive](outputs/plots/arima_60day_forecast.html) | Next 60 trading days with 95% CI |
+| **ARIMA Forecast vs Actual** | [▶ Open Interactive](arima_forecast_vs_actual.html) | Train/test split with prediction confidence bands |
+| **30-Day Future Forecast** | [▶ Open Interactive](arima_30day_forecast.html) | Next 30 trading days with 95% CI |
+| **60-Day Future Forecast** | [▶ Open Interactive](arima_60day_forecast.html) | Next 60 trading days with 95% CI |
 
 ---
 
@@ -146,13 +146,13 @@ reliance-stock-analysis/
 
 | Report File | Location | Contents |
 |-------------|----------|---------|
-| `decade_stats.csv` | [outputs/reports/](outputs/reports/decade_stats.csv) | Avg return, volatility, total return per decade (1990s/2000s/2010s/2020s) |
-| `arima_grid_search.csv` | [outputs/reports/](outputs/reports/arima_grid_search.csv) | AIC/BIC for all 16 ARIMA(p,1,q) candidate models |
-| `arima_metrics.csv` | [outputs/reports/](outputs/reports/arima_metrics.csv) | RMSE, MAE, MAPE for best model |
-| `model_comparison.csv` | [outputs/reports/](outputs/reports/model_comparison.csv) | ARIMA vs SARIMA head-to-head comparison |
-| `arima_30day_forecast.csv` | [outputs/reports/](outputs/reports/arima_30day_forecast.csv) | 30-day forecast values + 95% confidence bounds |
-| `arima_60day_forecast.csv` | [outputs/reports/](outputs/reports/arima_60day_forecast.csv) | 60-day forecast values + 95% confidence bounds |
-| `stationarity_report.txt` | [outputs/reports/](outputs/reports/stationarity_report.txt) | ADF test results + ARIMA parameter recommendations |
+| `decade_stats.csv` | [outputs/reports/](decade_stats.csv) | Avg return, volatility, total return per decade (1990s/2000s/2010s/2020s) |
+| `arima_grid_search.csv` | [outputs/reports/](arima_grid_search.csv) | AIC/BIC for all 16 ARIMA(p,1,q) candidate models |
+| `arima_metrics.csv` | [outputs/reports/](arima_metrics.csv) | RMSE, MAE, MAPE for best model |
+| `model_comparison.csv` | [outputs/reports/](model_comparison.csv) | ARIMA vs SARIMA head-to-head comparison |
+| `arima_30day_forecast.csv` | [outputs/reports/](arima_30day_forecast.csv) | 30-day forecast values + 95% confidence bounds |
+| `arima_60day_forecast.csv` | [outputs/reports/](arima_60day_forecast.csv) | 60-day forecast values + 95% confidence bounds |
+| `stationarity_report.txt` | [outputs/reports/](stationarity_report.txt) | ADF test results + ARIMA parameter recommendations |
 
 ---
 
