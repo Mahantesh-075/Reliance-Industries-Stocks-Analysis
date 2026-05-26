@@ -210,10 +210,6 @@ The Streamlit dashboard (`app.py`) provides:
 
 ---
 
-Dashboard Link | [Dashboard](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/arima_forecast_vs_actual.html)
-
----
-
 ## 📖 Decade-Wise Analysis
 
 | Decade | Avg Daily Return | Avg Volatility (30d) | Total Period Return | Notable Events |
