@@ -1,0 +1,22 @@
+STATIONARITY & ARIMA PARAMETER SELECTION REPORT
+=======================================================
+
+Raw Close:       ADF stat = -1.9931, p = 0.289628 -> Non-Stationary
+Differenced(d=1): ADF stat = -19.5590, p = 0.000000 -> Stationary
+Log Returns:     ADF stat = -20.6120, p = 0.000000 -> Stationary
+
+PARAMETER RECOMMENDATIONS:
+----------------------------------------
+d = 1  (first differencing makes series stationary)
+
+From ACF/PACF of differenced series:
+- ACF: rapid decay -> supports MA terms
+- PACF: significant spike at lag 1, then cuts off
+- Suggested p range: 0-3
+- Suggested q range: 0-3
+
+CANDIDATE MODELS:
+  ARIMA(1,1,0), ARIMA(1,1,1), ARIMA(2,1,1)
+  ARIMA(0,1,1), ARIMA(0,1,2)
+
+Grid search will be used in Phase 5 to find optimal AIC/BIC.
