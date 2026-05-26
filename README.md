@@ -209,6 +209,7 @@ The Streamlit dashboard (`app.py`) provides:
 | Image Export | `kaleido` |
 
 ---
+Dashboard Link | [Dashboard](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/dashboard.html)
 
 ## 📖 Decade-Wise Analysis
 
