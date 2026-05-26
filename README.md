@@ -106,10 +106,10 @@ reliance-stock-analysis/
 
 | Chart | Link | Covers |
 |-------|------|--------|
-| **Candlestick + Moving Averages** | [▶ Open Interactive](candlestick_ma.html) | SMA-50, SMA-200, EMA-20 overlaid on 2023–2025 OHLC |
-| **Bollinger Bands** | [▶ Open Interactive](bollinger_bands.html) | Upper/Lower bands, squeeze zones (2022–2025) |
-| **RSI-14** | [▶ Open Interactive](rsi_chart.html) | RSI with overbought (70) / oversold (30) shaded zones |
-| **MACD (12,26,9)** | [▶ Open Interactive](macd_chart.html) | MACD line, signal line, histogram with buy/sell signals |
+| **Candlestick + Moving Averages** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/candlestick_ma.html) | SMA-50, SMA-200, EMA-20 overlaid on 2023–2025 OHLC |
+| **Bollinger Bands** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/bollinger_bands.html) | Upper/Lower bands, squeeze zones (2022–2025) |
+| **RSI-14** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/rsi_chart.html) | RSI with overbought (70) / oversold (30) shaded zones |
+| **MACD (12,26,9)** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/macd_chart.html) | MACD line, signal line, histogram with buy/sell signals |
 
 ---
 
@@ -136,9 +136,9 @@ reliance-stock-analysis/
 
 | Chart | Link | What It Shows |
 |-------|------|--------------|
-| **ARIMA Forecast vs Actual** | [▶ Open Interactive](arima_forecast_vs_actual.html) | Train/test split with prediction confidence bands |
-| **30-Day Future Forecast** | [▶ Open Interactive](arima_30day_forecast.html) | Next 30 trading days with 95% CI |
-| **60-Day Future Forecast** | [▶ Open Interactive](arima_60day_forecast.html) | Next 60 trading days with 95% CI |
+| **ARIMA Forecast vs Actual** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/arima_forecast_vs_actual.html) | Train/test split with prediction confidence bands |
+| **30-Day Future Forecast** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/arima_30day_forecast.html) | Next 30 trading days with 95% CI |
+| **60-Day Future Forecast** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/arima_60day_forecast.html) | Next 60 trading days with 95% CI |
 
 ---
 
