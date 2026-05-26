@@ -87,10 +87,10 @@ reliance-stock-analysis/
 
 | Chart | Preview | Type | What It Shows |
 |-------|---------|------|---------------|
-| **30-Year Price Trend** | [▶ Open Interactive](ril_30yr_price.html) | Plotly HTML | Full price history with Dot-com, GFC, COVID, Jio annotations |
-| **Annual Returns** | [▶ Open Interactive](ril_annual_returns.html) | Plotly HTML | Year-by-year green/red bar chart |
-| **Price & Volume** | [▶ Open Interactive](ril_price_volume.html) | Plotly HTML | Dual-axis price + color-coded volume |
-| **Rolling Volatility** | [▶ Open Interactive](rolling_volatility.html) | Plotly HTML | 30-day & 90-day annualized volatility bands |
+| **30-Year Price Trend** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/ril_30yr_price.html) | Plotly HTML | Full price history with Dot-com, GFC, COVID, Jio annotations |
+| **Annual Returns** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/ril_annual_returns.html) | Plotly HTML | Year-by-year green/red bar chart |
+| **Price & Volume** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/ril_price_volume.html) | Plotly HTML | Dual-axis price + color-coded volume |
+| **Rolling Volatility** | [▶ Open Interactive](https://mahantesh-075.github.io/Reliance-Industries-Stocks-Analysis/rolling_volatility.html) | Plotly HTML | 30-day & 90-day annualized volatility bands |
 | **Returns Distribution** | 👇 Static PNG below | Matplotlib PNG | Histogram + Q-Q plot |
 | **Monthly Return Heatmap** | 👇 Static PNG below | Seaborn PNG | Year × Month return heatmap (30 years) |
 
