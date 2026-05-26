@@ -142,20 +142,6 @@ reliance-stock-analysis/
 
 ---
 
-## 📋 Generated Reports
-
-| Report File | Location | Contents |
-|-------------|----------|---------|
-| `decade_stats.csv` | [outputs/reports/](decade_stats.csv) | Avg return, volatility, total return per decade (1990s/2000s/2010s/2020s) |
-| `arima_grid_search.csv` | [outputs/reports/](arima_grid_search.csv) | AIC/BIC for all 16 ARIMA(p,1,q) candidate models |
-| `arima_metrics.csv` | [outputs/reports/](arima_metrics.csv) | RMSE, MAE, MAPE for best model |
-| `model_comparison.csv` | [outputs/reports/](model_comparison.csv) | ARIMA vs SARIMA head-to-head comparison |
-| `arima_30day_forecast.csv` | [outputs/reports/](arima_30day_forecast.csv) | 30-day forecast values + 95% confidence bounds |
-| `arima_60day_forecast.csv` | [outputs/reports/](arima_60day_forecast.csv) | 60-day forecast values + 95% confidence bounds |
-| `stationarity_report.txt` | [outputs/reports/](stationarity_report.txt) | ADF test results + ARIMA parameter recommendations |
-
----
-
 ## 🤖 ARIMA Grid Search Results
 
 All 16 candidate models tested on training data (2020–2024):
